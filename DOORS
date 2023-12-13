@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int N;
+    cout << "Nr usi= "; cin >> N;
+    int deschise = 0;
+    for (int i = 1; i * i <= N; i++) {
+        deschise++;
+    }
+    cout << "Numarul de usi deschise este= " << deschise << endl;
+    return 0;
+}
